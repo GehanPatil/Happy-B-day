@@ -14,10 +14,6 @@ def guess_number():
             st.write(" #### May all your Dreams come true and may this year bring you lots of Joy, Happiness and Success.")
             st.write(" ### Enjoy your Special day! 🎁🥳")
             st.write(" # Have a Blast! 💣🥳")
-            #st.write(" Your such a specail person, SISTER ")
-            #st.write(" I hope you know that deep down inside")
-            #st.write(" May you birthday be everything you have ever wished for")
-            #st.write(" Have a Blast! 💣 ")
             banner_img = Image.open("banner.jpg")
             st.image(banner_img, use_column_width=True)
             cake_img = Image.open("cake.jpg")
@@ -25,10 +21,9 @@ def guess_number():
         else:
             st.write("Sorry, that's not the correct number. Try again!")
             
-        st.write("## Thank you for Visiting \nProject by Gehan P")
+                  
             
-            
-    #st.write("## Thank you for Visiting \nProject by Gehan P")
+    st.write("#### Thank you for Visiting \nProject by Gehan P")
             
             
 if __name__ == "__main__":
