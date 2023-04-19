@@ -8,7 +8,7 @@ def guess_number():
     st.write("Choose a number between 1 and 10:")
     number = st.number_input("", min_value=1, max_value=10, step=1, key="number_input")
     if st.button("Guess"):
-        if random.randint(1, 3) == number:
+        if random.randint(1, 10) == number:
             st.write("# 🎉🎂🎈 Happy Birthday! 🎈🎂🎉")
             st.write(" ## To the Best SISTER in the World 😀🥳 ")
             st.write(" #### May all your Dreams come true and may this year bring you lots of Joy, Happiness and Success.")
